@@ -14,7 +14,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='pindo-cli',
-    version='0.1.7',
+    version='0.1.8',
     url='http://github.com/pindo-io/pindo-cli',
     license='MIT',
     author='Team Pindo',
@@ -34,8 +34,8 @@ setup(
     ],
     extras_require={
         'test': [
-            'pytest==4.1',
-            'pytest-flake8==1.0.4',
+            'pytest==3.10.1',
+            'pytest-flake8==1.0.6',
             'pytest-cov==2.6.1'
         ]
     },
